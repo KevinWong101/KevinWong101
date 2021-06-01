@@ -1,0 +1,112 @@
+nav {
+  overflow:hidden;
+  background-color:pink;
+  list-style:none;
+  position: fixed;
+  width:100%;
+  top:0;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+body{
+  margin:0;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  body{
+    background-color:yellow;
+  }
+      .topnav a {display: none;}
+  .topnav a.icon {
+	display: block;
+	float: right;
+  }
+    .topnav.responsive a.icon {
+	position:absolute;
+	right: 0;
+	top: 0;
+  }
+  .topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  body{
+    background-color:blue;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  body{
+    background-color:red;
+    font-size:20px;
+  }
+}
+
+
+main{
+  text-align:center;
+  margin:auto;
+  margin-top:100px;
+}
+
+.Plot {
+  color:black;
+}
+
+.Boomer{
+  text-align:center;
+  margin:0;
+}
+
+#Blue {
+  color:#00d9ff;
+}
+
+#Purple {
+  color:#9500ff;
+}
+
+#Brown {
+  color:#944a04;
+}
+
+#Yellow {
+  color:#fff700;
+}
+
+#Pink {
+  color:#ff5ce4;
+}
+
+#Orange {
+  color:#ffad5c;
+}
+
+#Green {
+  color:#118c46;
+}
+
+#Doomer {
+  text-align:center;
+  margin:auto;
+  
+}
